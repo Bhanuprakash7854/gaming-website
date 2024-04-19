@@ -1,0 +1,86 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #caf0f8;
+}
+
+h1
+{
+    text-align: center;
+    background-color: #90e0ef;
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 3.5vw;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.games
+{
+    display: flex;
+    padding-top: 10vh;
+    justify-content: space-evenly;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.gamebox
+{
+    width: 10vw;
+    background-size: cover;
+    height: 10vw; 
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#b1
+{
+    background-image: url(images/tictactoe.png);
+}
+
+#b2
+{
+    background-image: url(images/dino.avif);
+}
+
+#b3
+{
+    background-image: url(images/rock-paper-scissor.jpeg);
+}
+
+#b4
+{
+    background-image: url(images/connect-4.webp);
+}
+
+.gamebox:hover
+{
+    width: 11vw;
+    height: 11vw;
+}
+
+@media(max-width:1000px)
+{
+    .gamebox
+    {
+        width: 100px;
+        height: 100px;
+    }
+    h1
+    {
+        height: 50px;
+        font-size: 35px;
+    }
+}
