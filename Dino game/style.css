@@ -14,6 +14,10 @@ body
     flex-direction: column;
     align-items: center;
 }
+.score
+{
+    font-size: 30px;
+}
 .board
 {
     width: 500px;
@@ -85,5 +89,55 @@ body
     100%
     {
         left: 0px;
+    }
+}
+
+@media(max-width:500px)
+{
+    .board
+    {
+        width: 100vw;
+        height: 50vw;
+        border: 1px solid black;
+    }
+
+    #dino
+    {
+        height: 50px;
+        width: 50px;
+        top:calc(50vw - 50px);
+        left:50px;
+    }
+
+    #cactus
+    {
+        height: 40px;
+        width: 20px;
+        top:calc(50vw - 90px);
+        left:480px;
+    }
+
+    @keyframes jump 
+    {
+    0%
+    {
+        top:calc(50vw - 50px);
+    }
+    30%
+    {
+        top:calc(50vw - 100px);
+    }
+    50%
+    {
+        top:calc(50vw - 120px);
+    }
+    70%
+    {
+        top:calc(50vw - 100px);
+    }
+    100%
+    {
+        top:calc(50vw - 50px);
+    }
     }
 }
