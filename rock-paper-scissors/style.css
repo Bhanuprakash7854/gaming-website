@@ -11,10 +11,8 @@ body
 
 .header
 {
-    color:white;
-    font-size:2rem;
-    background-color: #5D8AA8;
-    height: 5vh;
+    color:black;
+    font-size:4vw;
     text-align: center;
 }
 
@@ -97,15 +95,13 @@ img
     {
         font-size: 20vw;
     }
-
-    #user,#computer
-    {
-        font-size: 10vw;
-    }
     .header
     {
         font-size: 10vw;
-        height: 15vw;
+    }
+    #user,#computer
+    {
+        font-size: 10vw;
     }
     #mesg
     {
