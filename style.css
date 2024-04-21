@@ -64,13 +64,13 @@ h1
 {
     background-image: url(images/connect-4.webp);
 }
-
+/* 
 .gamebox:hover
 {
     width: 11vw;
     height: 11vw;
 }
-
+ */
 @media(max-width:1000px)
 {
     .gamebox
